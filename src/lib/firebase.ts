@@ -4,7 +4,7 @@ import { getFirestore } from "firebase/firestore";
 import { getAnalytics } from "firebase/analytics";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCoMV5B9b-gpD0CekVXjNE-B0HmmAovEdM",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "shanid-db.firebaseapp.com",
   projectId: "shanid-db",
   storageBucket: "shanid-db.firebasestorage.app",
