@@ -69,8 +69,8 @@ const Login = () => {
             <Scissors className="h-8 w-8 text-primary-foreground" />
           </div>
           <div>
-            <CardTitle className="text-2xl">Production Flow</CardTitle>
-            <CardDescription>Sign in to manage your workflow</CardDescription>
+            <CardTitle className="text-2xl">WhiteNest Uniforms</CardTitle>
+            <CardDescription>Sign in</CardDescription>
           </div>
         </CardHeader>
         <CardContent>
